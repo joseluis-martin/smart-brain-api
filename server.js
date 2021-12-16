@@ -23,7 +23,7 @@ const db = knex({
 db.select('*').from('users').then(data => {
     console.log(data);
 });
-// Esto es un comentario para probar GitHub
+
 const app =  express();
 app.use(express.json());
 app.use(cors());
